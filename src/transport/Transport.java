@@ -40,4 +40,11 @@ public class Transport {
             this.capacity = capacity;
         }
     }
+    public void getStarted() {
+        System.out.println("начало поездки");
+    }
+
+    public void getFinished() {
+        System.out.println("конец поездки");
+    }
 }

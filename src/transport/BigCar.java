@@ -1,18 +1,7 @@
 package transport;
 
-public class BigCar extends Transport implements Methods {
+public class BigCar extends Transport {
     public BigCar(String mark, String model, double capacity) {
         super(mark, model, capacity);
-    }
-
-
-    @Override
-    public void getStarted() {
-        System.out.println("начало поездки");
-    }
-
-    @Override
-    public void getFinished() {
-        System.out.println("конец поездки");
     }
 }
