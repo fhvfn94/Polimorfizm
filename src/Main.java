@@ -14,5 +14,6 @@ public class Main {
         Bus hyundai = new Bus("hyundai", "univerce", 11.2);
         Bus renault = new Bus("renault", "master", 2.5);
         audi.getFinished();
+        System.out.println(audi.getMaxSpeed());
     }
 }

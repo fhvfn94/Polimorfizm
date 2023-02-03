@@ -5,5 +5,5 @@ public interface Compliting {
 
     double getBestTime();
 
-    int getMaxSpeeed();
+    int getMaxSpeed();
 }
