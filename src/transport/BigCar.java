@@ -1,25 +1,24 @@
 package transport;
 
 public class BigCar extends Transport implements Compliting {
-    private static final String a = "Car";
-    private static final double time = 10.5;
-    private static final int speed = 100;
+
     public BigCar(String mark, String model, double capacity) {
         super(mark, model, capacity);
     }
 
+
     @Override
-    public String getPitStop() {
-        return a;
+    public void getPitStop() {
+        System.out.println("pit stop Big Car");
     }
 
     @Override
-    public double getBestTime() {
-        return time;
+    public void getBestTime() {
+        System.out.println("10 time Big Car");
     }
 
     @Override
-    public int getMaxSpeed() {
-        return speed;
+    public void getMaxSpeed() {
+        System.out.println("100 km/h Big car");
     }
 }

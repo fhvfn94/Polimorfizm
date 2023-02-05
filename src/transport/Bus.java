@@ -1,25 +1,22 @@
 package transport;
 
 public class Bus extends Transport implements Compliting {
-    private static final String a = "Car";
-    private static final double time = 10.5;
-    private static final int speed = 100;
     public Bus(String mark, String model, double capacity) {
         super(mark, model, capacity);
     }
 
     @Override
-    public String getPitStop() {
-        return a;
+    public void getPitStop() {
+        System.out.println("pit stop Bus");
     }
 
     @Override
-    public double getBestTime() {
-        return time;
+    public void getBestTime() {
+        System.out.println("12 seconds Bus");
     }
 
     @Override
-    public int getMaxSpeed() {
-        return speed;
+    public void getMaxSpeed() {
+        System.out.println("150 km/h bus");
     }
 }

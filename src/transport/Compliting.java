@@ -1,9 +1,9 @@
 package transport;
 
 public interface Compliting {
-    String getPitStop();
+    void getPitStop();
 
-    double getBestTime();
+    void getBestTime();
 
-    int getMaxSpeed();
+    void getMaxSpeed();
 }
